@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // 1. Enviar dados para o SharePoint via Power Automate (Webhook)
     // ATENÇÃO: SUBSTITUA 'YOUR_POWER_AUTOMATE_WEBHOOK_URL' PELA URL REAL DO SEU WEBHOOK DO POWER AUTOMATE!
-    const powerAutomateWebhookUrl = "YOUR_POWER_AUTOMATE_WEBHOOK_URL"; 
+    const powerAutomateWebhookUrl = "https://default2e14bbabd7214a2d9ab2415eba9c66.76.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/76104a4302694b6e8b25ee0e01eb5062/triggers/manual/paths/invoke/?api-version=1&tenantId=tId&environmentName=Default-2e14bbab-d721-4a2d-9ab2-415eba9c6676&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=heKarW1s7UsuY1NB35Gesdfxmc52kS9r3iii7gFRaSc"; 
     
     // Objeto com os dados a serem enviados
     const formData = {
