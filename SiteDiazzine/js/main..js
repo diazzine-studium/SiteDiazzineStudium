@@ -174,4 +174,3 @@ document.addEventListener("DOMContentLoaded", () => {
   window.addEventListener("scroll", animateOnScroll);
   animateOnScroll(); // Chama uma vez para elementos já visíveis ao carregar a página
 });
-
